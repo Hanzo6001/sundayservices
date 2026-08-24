@@ -4,156 +4,641 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Contact | Sunday Services</title>
-  <meta name="description" content="Contact Sunday Services for mobile detailing in San Bernardino, Fontana, and nearby areas." />
+  <title>Contact & Quote | Sunday Services</title>
+
+  <meta
+    name="description"
+    content="Request a mobile detailing quote from Sunday Services in the Inland Empire."
+  />
+
   <meta name="theme-color" content="#0b0b10" />
 
   <link rel="icon" href="./media/logo.png" type="image/png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="./style.css" />
 </head>
 
-<body>
+<body data-page="contact">
   <div class="page">
+
     <header class="header">
+
       <div class="container bar">
+
         <a class="logo" href="./index.html" aria-label="Sunday Services Home">
-          <img class="logo-badge" src="./media/logo.png" alt="Sunday Services Logo" />
+
+          <img
+            class="logo-badge"
+            src="./media/logo.png"
+            alt="Sunday Services Logo"
+          />
+
           <span class="logo-text">
-            <img class="logo-wordmark" src="./media/wordmark.png" alt="Sunday Services Mobile Car Detailing" />
+
+            <img
+              class="logo-wordmark"
+              src="./media/wordmark.png"
+              alt="Sunday Services Mobile Car Detailing"
+            />
+
           </span>
+
         </a>
 
         <nav class="nav" aria-label="Primary">
+
           <ul class="nav-list">
-            <li><a class="nav-link" href="./index.html"><i class="bx bx-home"></i> Home</a></li>
-            <li><a class="nav-link" href="./about.html"><i class="bx bx-user"></i> About</a></li>
-            <li><a class="nav-link" href="./services.html"><i class="bx bx-cog"></i> Services</a></li>
-            <li><a class="nav-link" href="./gallery.html"><i class="bx bx-image"></i> Gallery</a></li>
-            <li><a class="nav-link" href="./socials.html"><i class="bx bx-share-alt"></i> Socials</a></li>
-            <li><a class="nav-link active" href="./contact.html"><i class="bx bx-envelope"></i> Contact</a></li>
+
+            <li>
+              <a class="nav-link" href="./index.html">
+                <i class="bx bx-home"></i>
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="./about.html">
+                <i class="bx bx-user"></i>
+                About
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="./services.html">
+                <i class="bx bx-cog"></i>
+                Services
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="./gallery.html">
+                <i class="bx bx-image"></i>
+                Gallery
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="./socials.html">
+                <i class="bx bx-share-alt"></i>
+                Socials
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link active" href="./contact.html">
+                <i class="bx bx-envelope"></i>
+                Contact
+              </a>
+            </li>
+
           </ul>
+
         </nav>
 
-        <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+        <button
+          class="burger"
+          id="burgerBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
           <i class="bx bx-menu"></i>
         </button>
 
-        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-          <a class="mobile-link" href="./index.html"><i class="bx bx-home"></i> Home</a>
-          <a class="mobile-link" href="./about.html"><i class="bx bx-user"></i> About</a>
-          <a class="mobile-link" href="./services.html"><i class="bx bx-cog"></i> Services</a>
-          <a class="mobile-link" href="./gallery.html"><i class="bx bx-image"></i> Gallery</a>
-          <a class="mobile-link" href="./socials.html"><i class="bx bx-share-alt"></i> Socials</a>
-          <a class="mobile-link" href="./contact.html"><i class="bx bx-envelope"></i> Contact</a>
+        <div
+          class="mobile-menu"
+          id="mobileMenu"
+          aria-hidden="true"
+        >
+
+          <a class="mobile-link" href="./index.html">
+            <i class="bx bx-home"></i>
+            Home
+          </a>
+
+          <a class="mobile-link" href="./about.html">
+            <i class="bx bx-user"></i>
+            About
+          </a>
+
+          <a class="mobile-link" href="./services.html">
+            <i class="bx bx-cog"></i>
+            Services
+          </a>
+
+          <a class="mobile-link" href="./gallery.html">
+            <i class="bx bx-image"></i>
+            Gallery
+          </a>
+
+          <a class="mobile-link" href="./socials.html">
+            <i class="bx bx-share-alt"></i>
+            Socials
+          </a>
+
+          <a class="mobile-link" href="./contact.html">
+            <i class="bx bx-envelope"></i>
+            Contact
+          </a>
+
         </div>
+
       </div>
+
     </header>
 
     <main class="container">
+
       <section class="section" data-animate="up">
-        <div class="card contact-card">
-          <h3><i class="bx bx-phone-call"></i> Contact Sunday Services</h3>
+
+        <div class="quote-page-heading">
+
+          <span class="badge">
+            <i class="bx bx-message-detail"></i>
+            Request a Quote
+          </span>
+
+          <h1>
+            Tell Us About Your Vehicle
+          </h1>
 
           <p class="muted">
-            Have a question or want a quote? You can reach out by phone, email,
-            or through Instagram and TikTok.
+            Fill out the form below and Sunday Services will receive your
+            vehicle and service information.
           </p>
 
-          <div class="contact-item">
-            <i class="bx bx-phone"></i>
-            <div>
-              <div class="label">Call</div>
-              <a class="link" href="tel:+19094526416">(909) 452-6416</a>
-            </div>
-          </div>
-
-          <div class="contact-item">
-            <i class="bx bx-envelope"></i>
-            <div>
-              <div class="label">Email</div>
-              <a class="link" href="mailto:sundayservicesad@gmail.com">sundayservicesad@gmail.com</a>
-            </div>
-          </div>
-
-          <div class="contact-item">
-            <i class="bx bxl-instagram"></i>
-            <div>
-              <div class="label">Instagram</div>
-              <a class="link" href="https://www.instagram.com/sundayservicesdetailing/" target="_blank">
-                @sundayservicesdetailing
-              </a>
-            </div>
-          </div>
-
-          <div class="contact-item">
-            <i class="bx bxl-tiktok"></i>
-            <div>
-              <div class="label">TikTok</div>
-              <a class="link" href="https://www.tiktok.com/@sundayservicesdetailing" target="_blank">
-                @sundayservicesdetailing
-              </a>
-            </div>
-          </div>
-
-          <div class="contact-item">
-            <i class="bx bx-map-pin"></i>
-            <div>
-              <div class="label">Service Area</div>
-              <div class="muted">San Bernardino • Fontana • Inland Empire</div>
-            </div>
-          </div>
-
-          <div class="contact-actions">
-            <a class="btn btn-primary" href="tel:+19094526416">
-              <i class="bx bx-phone"></i> Call Now
-            </a>
-
-            <a class="btn btn-soft" href="https://www.instagram.com/sundayservicesdetailing/" target="_blank">
-              <i class="bx bxl-instagram"></i> DM on Instagram
-            </a>
-          </div>
-
-          <div class="mini-note">
-            <i class="bx bx-shield"></i>
-            <span>Clean, professional results — no shortcuts.</span>
-          </div>
         </div>
+
       </section>
 
-      <section class="section" data-animate="up" style="padding-top:0;">
-        <div class="card">
-          <h2><i class="bx bx-right-arrow-circle"></i> What Most People Do Next</h2>
-          <p class="muted">
-            If you’re contacting us for a quote, it helps to look through the
-            gallery first so you can see examples of the work.
-          </p>
+      <section
+        class="section"
+        data-animate="up"
+        style="padding-top:0;"
+      >
 
-          <div class="hero-actions" style="margin-top:14px;">
-            <a class="btn btn-primary" href="./gallery.html">
-              <i class="bx bx-image"></i> View Gallery
-            </a>
+        <div class="contact-grid">
 
-            <a class="btn btn-ghost" href="./services.html">
-              <i class="bx bx-cog"></i> See Services
-            </a>
+          <div class="card">
+
+            <h2>
+              <i class="bx bx-receipt"></i>
+              Detailing Quote
+            </h2>
+
+            <p class="muted">
+              The more information you provide, the easier it will be to give
+              you an accurate quote.
+            </p>
+
+            <form
+              class="quote-form"
+              id="fullQuoteForm"
+              data-quote-form="full"
+            >
+
+              <div class="form-row">
+
+                <div class="field">
+
+                  <label for="fullName">
+                    Full Name *
+                  </label>
+
+                  <input
+                    id="fullName"
+                    name="name"
+                    type="text"
+                    placeholder="Your name"
+                    autocomplete="name"
+                    required
+                  />
+
+                </div>
+
+                <div class="field">
+
+                  <label for="fullPhone">
+                    Phone Number *
+                  </label>
+
+                  <input
+                    id="fullPhone"
+                    name="phone"
+                    type="tel"
+                    placeholder="(909) 555-1234"
+                    autocomplete="tel"
+                    required
+                  />
+
+                </div>
+
+              </div>
+
+              <div class="form-row">
+
+                <div class="field">
+
+                  <label for="fullEmail">
+                    Email
+                  </label>
+
+                  <input
+                    id="fullEmail"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                  />
+
+                </div>
+
+                <div class="field">
+
+                  <label for="fullContactMethod">
+                    Preferred Contact Method
+                  </label>
+
+                  <select
+                    id="fullContactMethod"
+                    name="preferredContact"
+                  >
+                    <option value="Text">Text Message</option>
+                    <option value="Call">Phone Call</option>
+                    <option value="Email">Email</option>
+                  </select>
+
+                </div>
+
+              </div>
+
+              <div class="form-row">
+
+                <div class="field">
+
+                  <label for="fullVehicle">
+                    Vehicle *
+                  </label>
+
+                  <input
+                    id="fullVehicle"
+                    name="vehicle"
+                    type="text"
+                    placeholder="2024 Toyota Camry"
+                    required
+                  />
+
+                </div>
+
+                <div class="field">
+
+                  <label for="fullCity">
+                    City / Service Location *
+                  </label>
+
+                  <input
+                    id="fullCity"
+                    name="city"
+                    type="text"
+                    placeholder="San Bernardino, Fontana, etc."
+                    required
+                  />
+
+                </div>
+
+              </div>
+
+              <div class="field">
+
+                <label for="fullService">
+                  Service Interested In *
+                </label>
+
+                <select
+                  id="fullService"
+                  name="service"
+                  required
+                >
+
+                  <option value="">
+                    Select a service
+                  </option>
+
+                  <option value="Exterior Maintenance Clean">
+                    Exterior Maintenance Clean
+                  </option>
+
+                  <option value="Interior Maintenance Clean">
+                    Interior Maintenance Clean
+                  </option>
+
+                  <option value="Interior & Exterior Clean">
+                    Interior & Exterior Clean
+                  </option>
+
+                  <option value="Exterior Deep Reset">
+                    Exterior Deep Reset
+                  </option>
+
+                  <option value="Interior Deep Reset">
+                    Interior Deep Reset
+                  </option>
+
+                  <option value="Ultimate Full Reset">
+                    Ultimate Full Reset
+                  </option>
+
+                  <option value="Engine Bay Detail">
+                    Engine Bay Detail
+                  </option>
+
+                  <option value="Not Sure">
+                    Not Sure — Help Me Choose
+                  </option>
+
+                </select>
+
+              </div>
+
+              <div class="field">
+
+                <label for="fullCondition">
+                  Vehicle Condition
+                </label>
+
+                <select
+                  id="fullCondition"
+                  name="condition"
+                >
+
+                  <option value="Normal">
+                    Normal / Maintenance Condition
+                  </option>
+
+                  <option value="Moderate">
+                    Moderate Dirt / Stains
+                  </option>
+
+                  <option value="Heavy">
+                    Heavy Dirt / Stains / Neglect
+                  </option>
+
+                  <option value="Pet Hair">
+                    Significant Pet Hair
+                  </option>
+
+                  <option value="Unsure">
+                    Not Sure
+                  </option>
+
+                </select>
+
+              </div>
+
+              <div class="field">
+
+                <label for="fullMessage">
+                  Additional Details
+                </label>
+
+                <textarea
+                  id="fullMessage"
+                  name="message"
+                  placeholder="Tell us about stains, pet hair, spills, paint concerns, special requests, or anything else we should know."
+                ></textarea>
+
+              </div>
+
+              <div class="honeypot-field" aria-hidden="true">
+
+                <label for="fullWebsite">
+                  Website
+                </label>
+
+                <input
+                  id="fullWebsite"
+                  name="website"
+                  type="text"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+
+              </div>
+
+              <button
+                class="btn-submit"
+                type="submit"
+              >
+
+                <i class="bx bx-send"></i>
+                Send Quote Request
+
+              </button>
+
+              <div
+                class="form-status"
+                id="fullQuoteStatus"
+                aria-live="polite"
+              ></div>
+
+              <p class="form-privacy">
+                Your information is only used to respond to your detailing
+                request.
+              </p>
+
+            </form>
+
           </div>
+
+          <div class="card contact-card">
+
+            <h3>
+              <i class="bx bx-phone-call"></i>
+              Contact Sunday Services
+            </h3>
+
+            <p class="muted">
+              Prefer to contact us directly? Use any of the options below.
+            </p>
+
+            <div class="contact-item">
+
+              <i class="bx bx-phone"></i>
+
+              <div>
+
+                <div class="label">
+                  Call
+                </div>
+
+                <a
+                  class="link"
+                  href="tel:+19094526416"
+                >
+                  (909) 452-6416
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="contact-item">
+
+              <i class="bx bx-envelope"></i>
+
+              <div>
+
+                <div class="label">
+                  Email
+                </div>
+
+                <a
+                  class="link"
+                  href="mailto:sundayservicesad@gmail.com"
+                >
+                  sundayservicesad@gmail.com
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="contact-item">
+
+              <i class="bx bxl-instagram"></i>
+
+              <div>
+
+                <div class="label">
+                  Instagram
+                </div>
+
+                <a
+                  class="link"
+                  href="https://www.instagram.com/sundayservicesdetailing/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @sundayservicesdetailing
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="contact-item">
+
+              <i class="bx bxl-tiktok"></i>
+
+              <div>
+
+                <div class="label">
+                  TikTok
+                </div>
+
+                <a
+                  class="link"
+                  href="https://www.tiktok.com/@sundayservicesdetailing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @sundayservicesdetailing
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="contact-item">
+
+              <i class="bx bx-map-pin"></i>
+
+              <div>
+
+                <div class="label">
+                  Service Area
+                </div>
+
+                <div class="muted">
+                  Inland Empire, California
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="contact-actions">
+
+              <a
+                class="btn btn-soft"
+                href="tel:+19094526416"
+              >
+                <i class="bx bx-phone"></i>
+                Call Now
+              </a>
+
+              <a
+                class="btn btn-soft"
+                href="https://www.instagram.com/sundayservicesdetailing/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bxl-instagram"></i>
+                DM on Instagram
+              </a>
+
+            </div>
+
+            <div class="mini-note">
+
+              <i class="bx bx-shield"></i>
+
+              <span>
+                Clean, professional results — no shortcuts.
+              </span>
+
+            </div>
+
+          </div>
+
         </div>
+
       </section>
+
     </main>
 
     <footer class="footer">
+
       <div class="container">
-        <span><i class="bx bx-copyright"></i> <span id="year"></span> Sunday Services</span>
+
+        <span>
+          <i class="bx bx-copyright"></i>
+          <span id="year"></span>
+          Sunday Services
+        </span>
+
         <span class="footer-dot">•</span>
-        <span class="muted">Mobile Detailing • San Bernardino & Fontana, CA</span>
+
+        <span class="muted">
+          Mobile Detailing • Inland Empire, CA
+        </span>
+
       </div>
+
     </footer>
+
   </div>
 
   <script src="./page.js" defer></script>
